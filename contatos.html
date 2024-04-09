@@ -8,8 +8,8 @@
 </head>
 <body>
     <header>
-        <div class="caixa">
-        <h1><img src="logo.png" alt="Logo da Barbearia"></h1>
+     <div class="caixa">
+     <h1><img src="logo.png" alt="Logo da Barbearia"></h1>
         <nav>
             <ul>
       <li> <a href="index.html">Home</a></li>
@@ -18,8 +18,41 @@
             </ul>
         </nav>
         </div>
-    </header>
-    <footer>
+     </header>
+      <main>
+        <form>
+            <label for="nomeSobrenome"> Nome e Sobrenome</label>
+            <input type="text" id="nomeSobrenome">
+
+
+            <label for="email">Email</label>
+            <input type="text" id="email">
+
+
+            <label for="telefone">Telefone</label>
+            <input type="text" id="telefone">
+
+          <label for="mensagem">Mensagem</label>
+          <textarea name="" id="mensagem" cols="30" rows="10"></textarea>
+
+          <div>
+            <p>Como prefere nosso contato?</p>
+            <label for="radio-email">Email</label>
+            <input type="radio" name="contatos" id="radio-email">
+
+            <label for="radio-telefone">Telefone</label>
+            <input type="radio" name="contatos" id="radio-telefone">
+
+            <label for="radio-whatsapp">Whatsapp</label>
+            <input type="radio" name="contatos" id="radio-whatsapp">
+          </div>
+
+          <label><input type="checkbox" name="" id="">Gostaria de receber nossa novidade por e-mail?</label>
+            
+            <input type="submit" value="Enviar Formulário">
+        </form>
+     </main>
+     <footer>
         <img src="logo-branco.png" alt="Logo da Barbearia Alura">
         <p class="copyright">&copy; Copyright Barberaria Alura - 2024</p>
     </footer>
